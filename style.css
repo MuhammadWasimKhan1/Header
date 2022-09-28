@@ -1,0 +1,193 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.searchbar{
+  width: 70%;
+  position: relative;
+}
+.searchbar .icon{
+  width:17px;
+  height: 17px;
+}
+.searchbar .searchbar-button{
+
+border: none;
+background-color: #e92c23;
+border-radius: 100px;
+padding: 7px;
+
+position: absolute;
+right: 6px;
+top: 22px;
+}
+
+
+.searchbar2{
+  width: 80%;
+  position: relative;
+  margin: auto;
+}
+.searchbar2 .icon{
+  width:17px;
+  height: 17px;
+}
+.searchbar2 .searchbar-button{
+
+border: none;
+background-color: #e92c23;
+border-radius: 100px;
+padding: 7px;
+
+position: absolute;
+right: 0;
+}
+input[type=text] {
+border: 0;
+border-radius: 30px;
+width: 100%;
+font-size: 17px;
+padding: 10px 10px;
+background-color: #f2f2f2;
+margin-top: 17px;
+
+}
+.container {
+  display: flex;
+margin-left: auto;
+margin-right: auto;
+justify-content: space-between;
+padding: 0px 50px;
+
+      /*gap: 2rem;*/
+
+}
+.logo img
+{
+  margin-left: 20px;
+}
+.fluid-container1{
+  width: 100%;
+}
+.fluid-container{
+  background: black;
+    height: 50px;
+
+}
+.fluid-container2{
+  background-color:#d0312d;
+    height: 40px;
+}
+.fluid-container2 h4{
+  margin: 0;
+  text-align:center;
+  margin: auto;
+  text-align: center;
+  padding-top: 11px;
+  color: white;
+}
+.header{
+   
+    background-color: white;
+}
+.icons img {
+  width: 27px;
+}
+.icon-section {
+  display: flex;
+ justify-content: center;
+ margin-top: 16px;
+}
+.icon-section p{
+  margin: 0;
+}
+.icon-section .icons{
+  padding-right: 25px;
+  text-align: center;
+}
+.header-menu{
+  width: 100%;
+}
+.header-menu ul{
+  display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    list-style: none;
+    justify-content: center;
+
+}
+.header-menu ul li a{
+   text-decoration: none;
+   color: white;
+}
+input:focus {
+border:2px solid #feaa2c;
+outline: none;
+}
+
+.responsive {
+  display: none;
+}
+.open{
+  display: none;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 40px;
+
+  margin-left: 50px;
+  color: #000;
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 700px)  {
+
+.searchbar{
+  display: none;
+}
+.responsive{
+  width: 80%;
+  display: block;
+}
+.open{
+  display: block;
+
+}
+.open img
+{
+  width: 50px;
+  height:50px;
+}
+ .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
